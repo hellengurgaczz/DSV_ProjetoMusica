@@ -1,0 +1,12 @@
+### Cadastrar musica
+POST https://localhost:5001/api/music/create
+Content-Type: application/json
+
+{
+    "Nome" : "Music"
+}
+
+### Listar musicas
+GET https://localhost:5001/api/music/listMusics
+
+
