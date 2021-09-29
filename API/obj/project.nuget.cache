@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "oXHgK0DBNKDKYXYNyCD3W7xz5jxRxB3ggzCD2cnDG6Ti39ZnrpIfiMtltX7/w6petnjRJibev5quGa6Ft0vlNw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gurga\\OneDrive\\Documentos\\DSV_ProjetoMusica\\API\\API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gurga\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\gurga\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\gurga\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\gurga\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\gurga\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\gurga\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
