@@ -3,7 +3,7 @@ POST https://localhost:5001/api/music/create
 Content-Type: application/json
 
 {
-    "Nome" : "Music"
+    "musicName" : "music"
 }
 
 ### Listar musicas
