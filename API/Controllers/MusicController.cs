@@ -1,3 +1,8 @@
+using API.Models;
+using API.Data;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+
 namespace API.Controllers
 {
     [ApiController]
@@ -8,7 +13,7 @@ namespace API.Controllers
         private readonly DataContext _context;
 
         //Construtor
-        public ProdutoController(DataContext context) => _context = context;
+        public MusicController(DataContext context) => _context = context;
 
         //POST: api/music/create
         [HttpPost]

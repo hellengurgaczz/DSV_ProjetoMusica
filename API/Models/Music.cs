@@ -1,3 +1,5 @@
+using System;
+
 namespace API.Models
 {
     public class Music
@@ -7,5 +9,6 @@ namespace API.Models
         public string Genre {get; set;}
         public string Singer {get; set;}
         public int Release {get; set;}
+
     }
 }
