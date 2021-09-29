@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\gurga\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\gurga\\.nuget\\packages"
+    ]
+  }
+}
