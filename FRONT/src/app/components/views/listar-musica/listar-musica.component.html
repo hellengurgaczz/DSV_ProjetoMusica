@@ -1,10 +1,11 @@
-<a routerLink="/musica/cadastrar">Cadastrar música</a>
-
 <ol>
     <li *ngFor="let musica of musicas">
-        {{ musica.musicName }} <br>
-        {{ musica.singer}}  <br>
-        {{ musica.genre}}   <br>
-        {{ musica.release}}
+        Nome: {{ musica.musicName }} <br>
+        Cantor: {{ musica.singer}}  <br>
+        Gênero: {{ musica.genre}}   <br>
+        Data de lançamento: {{ musica.release}}
+        <hr bold="4px" color="rosybrown">
     </li>
 </ol>
+
+<a routerLink="/musica/cadastrar">Cadastrar música</a>

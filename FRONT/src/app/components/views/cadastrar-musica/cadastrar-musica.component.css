@@ -1,0 +1,46 @@
+#nome{
+    margin-top: 30px;
+}
+
+span{
+    padding-top: 100px;
+}
+
+div{
+    margin-top: 7px;
+    font-size: 30px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    margin-left: 8px;
+    border-color: rosybrown;
+    border-radius: 3px;
+    height: 30px;
+    width: 300px;
+}
+
+button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 40px;
+    margin: 20px;
+    background-color: rosybrown;
+    color: #FFF;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 217px;
+    border-color: rosybrown;
+    font-size: 20px;
+}
+
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
