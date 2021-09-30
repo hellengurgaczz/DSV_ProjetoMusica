@@ -16,10 +16,7 @@ export class ListarMusicaComponent implements OnInit {
   ngOnInit(): void {
     this.service.list().subscribe((musicas) => {
       this.musicas = musicas;
-      for (let musica of musicas) {
-          console.log(musica);
-      }
-      })
+    })
   }
 
 }

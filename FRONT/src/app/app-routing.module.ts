@@ -9,7 +9,7 @@ const routes: Routes = [
     component: ListarMusicaComponent
   },
   {
-    path: "musicas/listarMusicas",
+    path: "musica/listarMusicas",
     component: ListarMusicaComponent
   },
   {

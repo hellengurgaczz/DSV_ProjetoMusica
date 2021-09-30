@@ -3,5 +3,5 @@ export interface Musica {
     musicName: string;
     genre?: string;
     singer: string;
-    release: number;
+    release?: number;
 }

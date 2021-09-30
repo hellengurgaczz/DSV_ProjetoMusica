@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from "@angular/router";
+import { Musica } from "src/app/models/musica"
+import { MusicaService } from 'src/app/services/musica.service';
 
 @Component({
   selector: 'app-cadastrar-musica',
@@ -7,9 +10,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CadastrarMusicaComponent implements OnInit {
 
-  constructor() { }
+  nome!: string;
+  genero!: string;
+  cantor!: string;
+  lancamento!: number;
 
-  ngOnInit(): void {
+  constructor(private router: Router) { }
+    ngOnInit(): void {
+  }
+
+  cadastrar(): void{
+    let musica: Musica = {
+      musicName: this.nome,
+      genre: this.genero,
+      singer: this.cantor,
+      release: this.lancamento
+    }
+    this.router.navigate(["musica/listarMusicas"]);
   }
 
 }

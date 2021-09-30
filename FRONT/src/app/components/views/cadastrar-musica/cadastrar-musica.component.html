@@ -1,1 +1,17 @@
-<p>cadastrar-musica works!</p>
+<div id="nome">
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" [(ngModel)]="nome" />
+</div>
+<div id="genero">
+    <label for="genero">Gênero:</label>
+    <input type="text" name="genero" [(ngModel)]="genero" />
+</div>
+<div id="cantor">
+    <label for="cantor">Cantor:</label>
+    <input type="text" name="cantor" [(ngModel)]="cantor" />
+</div>
+<div id="">
+    <label for="lancamento">Lançamento: </label>
+    <input type="text" name="lancamento" [(ngModel)]="lancamento" />
+</div>
+<button (click)="cadastrar()">Cadastrar música</button>
