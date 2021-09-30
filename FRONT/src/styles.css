@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+body{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    padding-top: 90px;
+}
+
+#app{
+    flex: 1;
+}
+
+div{
+    flex: 1;
+}
+
+#titulo{
+    font-size: 50px;
+    font-weight: bold;
+}
