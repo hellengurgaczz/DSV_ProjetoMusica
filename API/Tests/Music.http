@@ -3,7 +3,10 @@ POST https://localhost:5001/api/music/create
 Content-Type: application/json
 
 {
-    "musicName" : "music"
+    "musicName" : "Count on me",
+    "Genre": "pop",
+    "Singer": "Bruno Mars",
+    "Release": "2010"
 }
 
 ### Listar musicas

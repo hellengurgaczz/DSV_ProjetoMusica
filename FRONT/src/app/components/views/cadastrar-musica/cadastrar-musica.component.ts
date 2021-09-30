@@ -15,7 +15,7 @@ export class CadastrarMusicaComponent implements OnInit {
   cantor!: string;
   lancamento!: number;
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private service: MusicaService) { }
     ngOnInit(): void {
   }
 
@@ -26,7 +26,9 @@ export class CadastrarMusicaComponent implements OnInit {
       singer: this.cantor,
       release: this.lancamento
     }
-    this.router.navigate(["musica/listarMusicas"]);
+    this.service.create(musica).subscribe(musica => {
+      this.router.navigate(["musica/listarMusicas"]);
+    })
   }
 
 }
